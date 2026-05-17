@@ -122,7 +122,7 @@ const chapters = [
               desc: "通过研究说明、场景图片、属性对比卡片和选择任务重构 DCE/CE 问卷体验，让复杂选择任务更容易理解与完成。",
               tags: ["CE scenario", "attribute cards", "mobile survey"],
               screenshot: "assets/product/01.jpg",
-              href: "https://jiangciii.github.io/choicecraft-frontend/choicecraft/index.html#overview",
+              href: "http://129.204.155.8/survey",
               cta: "Open Demo →"
             },
             {
@@ -142,7 +142,7 @@ const chapters = [
               desc: "将 R / idefix 的实验设计流程转化为网页工具，支持属性水平配置、choice sets 自动生成、结果解读与 Excel 下载。",
               tags: ["R idefix", "choice sets", "Excel export"],
               screenshot: "assets/product/03.jpg",
-              href: "http://129.204.155.8/survey",
+              href: "https://jiangciii.github.io/choicecraft-frontend/choicecraft/index.html#overview",
               cta: "Open Generator →"
             }
           ],

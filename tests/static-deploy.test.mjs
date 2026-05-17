@@ -52,3 +52,8 @@ run('external ChoiceCraft demo links are preserved', () => {
     assert.ok(bundleText.includes(link), link);
   }
 });
+
+run('prototype entry links point to the correct products', () => {
+  assert.ok(/title:\s*"Survey Demo"[\s\S]*?cn:\s*"情境化 CE 问卷采集系统"[\s\S]*?href:\s*"http:\/\/129\.204\.155\.8\/survey"/.test(script));
+  assert.ok(/title:\s*"Design Generator"[\s\S]*?cn:\s*"D-efficient Design 在线生成工具"[\s\S]*?href:\s*"https:\/\/jiangciii\.github\.io\/choicecraft-frontend\/choicecraft\/index\.html#overview"/.test(script));
+});

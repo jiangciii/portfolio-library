@@ -463,13 +463,13 @@ run('AI prototype chapter follows the provided five-module preview structure', (
   const entryMappingOrder = [
     'variant: "survey"',
     'screenshot: "assets/product/01.jpg"',
-    'href: "https://jiangciii.github.io/choicecraft-frontend/choicecraft/index.html#overview"',
+    'href: "http://129.204.155.8/survey"',
     'variant: "admin"',
     'screenshot: "assets/product/02.jpg"',
     'href: "http://129.204.155.8/admin/dashboard"',
     'variant: "generator"',
     'screenshot: "assets/product/03.jpg"',
-    'href: "http://129.204.155.8/survey"',
+    'href: "https://jiangciii.github.io/choicecraft-frontend/choicecraft/index.html#overview"',
   ];
 
   let previousEntryMarker = -1;
