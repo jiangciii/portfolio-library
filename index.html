@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Gao Xiwen portfolio library for AI product prototypes, data analysis, research, and visual storytelling." />
+  <title>GAO XIWEN · Portfolio Library</title>
+  <link rel="stylesheet" href="./css/styles.css" />
+</head>
+<body>
+  <main class="page">
+    <section class="hero">
+      <header class="topbar">
+        <div class="brand">
+          <div class="brand-name">GAO XIWEN</div>
+          <div class="brand-sub">Portfolio Library</div>
+        </div>
+        <div class="topbar-eyebrow">
+          <span class="spark"></span>
+          <span>AI Product · Research-driven Design · Operations</span>
+        </div>
+        <nav class="number-nav" aria-label="chapter navigation">
+          <button class="active" data-index="0">01</button>
+          <button data-index="1">02</button>
+          <button data-index="2">03</button>
+          <button data-index="3">04</button>
+          <button data-index="4">05</button>
+        </nav>
+      </header>
+
+      <div class="hero-content cover-hero">
+        <div>
+          <section class="chapter-panel cover-panel cover-text" id="chapterPanel">
+            <h1 class="chapter-title cover-title-main" id="coverTitle">Portfolio Library</h1>
+            <p class="chapter-desc" id="coverDesc">A loose-leaf portfolio of research, AI product prototypes, data analysis and visual storytelling.</p>
+            <p class="chapter-desc-cn" id="coverDescCn">一本关于空间研究、AI 产品原型、数据分析与视觉表达的个人作品集。</p>
+          </section>
+        </div>
+
+        <div class="library-zone cover-shelf">
+          <div class="books-wrap">
+            <div class="books" id="books"></div>
+          </div>
+          <div class="shelf"></div>
+          <div class="hint">click a book spine to switch resume chapter</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="details" id="details">
+      <div class="details-inner" id="detailsList"></div>
+    </section>
+  </main>
+
+  <aside class="portfolio-side-nav" aria-label="页面导航">
+    <button class="side-nav-toggle" type="button" aria-label="Toggle page navigation" aria-expanded="true" data-side-nav-toggle>
+      <span class="side-nav-toggle-icon" aria-hidden="true"></span>
+    </button>
+    <div class="side-nav-heading">
+      <div class="side-nav-title-cn">页面导航</div>
+      <div class="side-nav-title-en">ON THIS PAGE</div>
+    </div>
+
+    <nav class="side-nav-list">
+      <a class="side-nav-link is-current" href="#chapter-01" data-index="0">
+        <strong><span class="side-nav-index">01</span>个人背景</strong>
+        <span>CHAPTER 01</span>
+      </a>
+      <a class="side-nav-link" href="#chapter-02" data-index="1">
+        <strong><span class="side-nav-index">02</span>实习经历</strong>
+        <span>CHAPTER 02</span>
+      </a>
+      <a class="side-nav-link" href="#chapter-03" data-index="2">
+        <strong><span class="side-nav-index">03</span>AI 原型搭建</strong>
+        <span>CHAPTER 03</span>
+      </a>
+      <a class="side-nav-link" href="#chapter-04" data-index="3">
+        <strong><span class="side-nav-index">04</span>数据分析能力</strong>
+        <span>CHAPTER 04</span>
+      </a>
+      <a class="side-nav-link" href="#chapter-05" data-index="4">
+        <strong><span class="side-nav-index">05</span>可视化与叙事表达</strong>
+        <span>CHAPTER 05</span>
+      </a>
+    </nav>
+  </aside>
+
+  <div class="visual-lightbox" id="visualLightbox" role="dialog" aria-modal="true" aria-hidden="true" aria-label="高清作品预览">
+    <button class="visual-lightbox-backdrop" type="button" data-lightbox-close aria-label="关闭高清大图"></button>
+    <figure class="visual-lightbox-panel" id="visualLightboxPanel">
+      <button class="visual-lightbox-close" type="button" data-lightbox-close aria-label="关闭高清大图">×</button>
+      <img class="visual-lightbox-image" id="visualLightboxImg" src="" alt="" onerror="handleVisualLightboxImageError()">
+      <figcaption class="visual-lightbox-caption">
+        <strong id="visualLightboxTitle"></strong>
+        <span id="visualLightboxCaption"></span>
+      </figcaption>
+    </figure>
+  </div>
+
+  <script src="./js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,19 @@
+node_modules/
+dist/
+.DS_Store
+Thumbs.db
+
+# Keep heavy editable source files out of the Pages repository by default.
+*.psd
+
+# Earlier local prototypes / build-source files are kept locally but not needed for GitHub Pages.
+src/
+public/
+assets/AI Product Prototype/
+assets/profile/
+assets/visual-storytelling/
+动态-2.html
+loose-leaf-portfolio.html
+vite.config.js
+tailwind.config.js
+postcss.config.js

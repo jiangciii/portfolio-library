@@ -1,0 +1,10 @@
+{
+  "name": "portfolio-library",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "serve": "node serve-http.mjs",
+    "test": "node tests/static-deploy.test.mjs && node tests/dynamic-library.test.mjs"
+  }
+}
